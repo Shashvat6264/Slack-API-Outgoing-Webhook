@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>Page</title>
+    </head>
+    <body>
+        <h1>All Messages on #Django</h1>
+        <ul>
+            {% for m in msg %}
+                <a href = "{{ m.text }}"><li>{{ m.text }}</li></a>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
