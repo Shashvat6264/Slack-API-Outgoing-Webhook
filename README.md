@@ -8,7 +8,7 @@ Use this program to extract any link in a channel by setting up an outgoing webh
 4. Give this 'URl/get' to the URL required in the webhook settings.
 5. Also put the domain name in the ALLOWED_HOSTS list in slack/settings.py
 6. Run the server by running this command in a terminal in the project directory.
-'''
+```
 python manage.py runserver
-'''
+```
 7. Now go to the url 'URL/get' and watch the project work.
